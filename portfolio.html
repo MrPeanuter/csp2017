@@ -3,6 +3,40 @@
 	  <head>
 	    <meta charset="utf-8">
 	    <title>Portfolio</title>
+	    	    <style>
+	    	    /* Remixed code from w3school.com */
+	        #mySidenav a {
+    position: absolute;
+    left: -1870px;
+    transition: 10s; 
+    padding: 15px;
+    width: 1890px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+
+#Home {
+    top: 70px;
+    background-color: #4CAF50;
+}
+
+#Portfolio {
+    top: 130px;
+    background-color: #2196F3;
+}
+
+#CSP_P4 {
+    top: 190px;
+    background-color: #f44336;
+}
+	    </style>
 	  </head>
 	  <style>
 .whitetext {
@@ -10,9 +44,11 @@
 }
 </style>
 	  <body background="images/giphy.gif" style="background-image:(images/giphy.gif); background-attachment:fixed; background-position:center">
-    <a href="index.html">Home</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="CSP_P4.html">CSP_P4</a>
+    <div id="mySidenav" class="sidenav">
+        <a href="index.html" id="Home">Home</a>
+        <a href="portfolio.html" id="Portfolio">Portfolio</a>
+        <a href="CSP_P4.html" id="CSP_P4">CSP_P4</a>
+    </div>
     <h1 class="whitetext">This is where the magic happens!</h1>
     <br>
     <table border="2" align="center">
@@ -26,20 +62,21 @@
                 </tr>
                 <tr>
                     <td>
-                      <img src="images/thisiswhyimbroke.png" height="100">
+                      <img src="images/thisiswhyimbroke.png" height="100" width="350">
                     </td>
                 <td>
                  <a target="_blank" href="https://scratch.mit.edu">
-      <img src="images/scratchlogo.png" height="100"></a>   
+      <img src="images/scratchlogo.png" height="100" width="350"></a>   
                 </td>    
                 </tr>
                 <tr>
                     <td>
                           <a target="_blank" href="https://www.thisiswhyimbroke.com/">
-      <p>Click Here</p>
+      <img src="images/clickhere2.png" height="100" width="350"></a>
                     </td>
                     <td>
-                        <a traget="_blank" href="https://scratch.mit.edu/projects/173624047/#player">The Apocalyptic Space Tragedy</a>
+                        <a traget="_blank" href="https://scratch.mit.edu/projects/173624047/#player">
+                            <img src="images/earth-view-from-satellite-space-systems-cover.jpg" height="100" width="350"></a>
                     </td>
                 </tr>
                 </table>
