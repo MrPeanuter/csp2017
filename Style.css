@@ -1,0 +1,54 @@
+	    /* Remixed code from w3school.com */
+	        #body{
+	            background-size:1000px 1000px;
+	            background-repeat:no-repeat;
+	            background-position:center top;
+	            }
+	   #mySidenav a {
+    position: absolute;
+    left: -1870px;
+    transition: 3s; 
+    padding: 15px;
+    width: 1890px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#Home {
+    top: 70px;
+    background-color: #4CAF50;
+}
+
+#Portfolio {
+    top: 130px;
+    background-color: #2196F3;
+}
+
+#CSP_P4 {
+    top: 190px;
+    background-color: #f44336;
+}
+
+#AP_ASSIGNMENTS {
+    top: 250px;
+    background-color: #ffd83d;
+}
+
+a:link{
+    color: #52C5FF;
+}
+a:visited{
+    color: #15E87F;
+} 
+.whitetext {
+        color: white;
+}
+body{
+    background-color: #A20014;
+}
