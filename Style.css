@@ -1,15 +1,15 @@
 	    /* Remixed code from w3school.com */
 	        #body{
-	            background-size:1000px 1000px;
+	            background-size: 2000px 1200px;
 	            background-repeat:no-repeat;
 	            background-position:center top;
 	            }
 	   #mySidenav a {
     position: absolute;
-    left: -1870px;
-    transition: 3s; 
+    left: -150px;
+    transition: 1s; 
     padding: 15px;
-    width: 1890px;
+    width: 170px;
     text-decoration: none;
     font-size: 20px;
     color: white;
